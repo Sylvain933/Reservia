@@ -38,6 +38,7 @@ header a
 .register
 {
     color:#0065FC ;
+    font-weight: bold;
 }
 
 header a:hover
