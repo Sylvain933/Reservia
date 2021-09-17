@@ -13,14 +13,21 @@ a
 }
 
 /**** HEADER ****/
-
+header
+{
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
 
 header ul
 {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 30%;
+
 }
 
 header a 
@@ -33,3 +40,7 @@ header a
     color:#0065FC ;
 }
 
+header a:hover
+{
+    border-top:#0065FC solid 2px ;
+}
