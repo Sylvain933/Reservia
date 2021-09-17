@@ -1,0 +1,35 @@
+/**** Général ****/
+
+body 
+{
+font-family:"Raleway", sans-serif;
+max-width: 1440px;
+margin: auto;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+/**** HEADER ****/
+
+
+header ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a 
+{
+    color: black;
+}
+
+.register
+{
+    color:#0065FC ;
+}
+
