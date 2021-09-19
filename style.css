@@ -1,5 +1,9 @@
 /**** Général ****/
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body 
 {
 font-family:"Raleway", sans-serif;
@@ -45,3 +49,54 @@ a
     border-top: solid 2px #0065FC;
 }
 
+/**** SECTION RECHERCHE ****/
+
+.search h1 {
+    padding-top: 10px; 
+}
+
+.search > p {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    padding: 10px 0 ;
+}
+
+#icon_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    height: 50px;
+    width: 50px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+}
+
+#texte_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    width: 230px;
+    border: none;
+    border: 1px solid #F2F2F2;
+}
+
+#button_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #0065FC;
+    width: 120px;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    font-weight: bold;
+    font-size: 1em;
+}
