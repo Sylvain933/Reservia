@@ -12,36 +12,36 @@ a
     text-decoration: none;
 }
 
-/**** HEADER ****/
-header
-{
-    padding: 2px;
+/**** NAV BAR ****/
+
+.navbar {
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
 }
 
-header ul
-{
+.navbar ul {
     display: flex;
-    list-style: none;
-    justify-content: space-around;
     align-items: center;
-    width: 30%;
-
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
 }
 
-header a 
-{
+.navbar a {
     color: black;
+    padding: 28px;
 }
 
-.register
-{
-    color:#0065FC ;
+#register {
     font-weight: bold;
+    color: #0065FC;
 }
 
-header a:hover
-{
-    border-top:#0065FC solid 2px ;
+.navbar a:hover {
+    color: #0065FC;
+    border-top: solid 2px #0065FC;
 }
+
