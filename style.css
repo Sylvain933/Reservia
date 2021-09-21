@@ -209,7 +209,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px
 }
 
 .accomodation .container a {
