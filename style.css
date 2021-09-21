@@ -228,6 +228,7 @@ main {
 
 .accomodation .container img {
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .accomodation .container a h3,
@@ -258,3 +259,4 @@ main {
     height: 100px;
     width: 100px;
 }
+
