@@ -143,3 +143,26 @@ a
     cursor: pointer;
     transition: 0.5s;
 }
+
+.info {
+    display: flex;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.info i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    border: #F2F2F2 solid 3px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+}
+
+.info p {
+    padding-left: 10px;
+}
+
