@@ -204,12 +204,13 @@ main {
 
 .accomodation h2 {
     padding: 50px 50px 0 50px;
+    
 }
 .accomodation .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 30px
+    padding: 20px 30px 30px 30px
 }
 
 .accomodation .container a {
@@ -258,5 +259,27 @@ main {
 .popular img {
     height: 100px;
     width: 100px;
+}
+
+.more-popular {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 10px 50px;
+}
+
+.more-popular i {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.popular .container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px; 
+}
+
+.popular .container a {
+    display: flex;
 }
 
