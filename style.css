@@ -16,6 +16,14 @@ a
     text-decoration: none;
 }
 
+.blue {
+    color: #0065FC;
+}
+
+.grey {
+    color: lightgray;
+}
+
 
 /**** NAV BAR ****/
 
@@ -165,4 +173,88 @@ a
 .info p {
     padding-left: 10px;
 }
+/**** MAIN ****/
 
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.accomodation {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-right: 20px;
+    flex: 2;
+    height: auto;
+}
+
+.popular {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 20px;
+    flex: 1;
+}
+
+/**** Hébergements ****/ 
+
+.accomodation img {
+    height: 125px;
+    width: 250px;
+}
+
+.accomodation h2 {
+    padding: 50px 50px 0 50px;
+}
+.accomodation .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.accomodation .container a {
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    margin: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    font-size: 13px;
+    min-height: 190px;
+    color: black;
+    box-shadow:  5px 5px 15px grey;
+}
+
+.accomodation .container img {
+    border-radius: 15px 15px 0 0;
+}
+
+.accomodation .container a h3,
+.accomodation .container a p,
+.accomodation .container a .stars-accomodation {
+    padding-left: 10px;
+}
+
+
+.accomodation .container a:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.more {
+    margin: 0px 0 30px 50px;
+}
+
+.more a {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/**** Populaires ****/ 
+
+.popular img {
+    height: 100px;
+    width: 100px;
+}
