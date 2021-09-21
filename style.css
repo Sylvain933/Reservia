@@ -60,43 +60,38 @@ a
     padding-bottom: 10px;
 }
 
-.form {
+.search form {
     display: flex;
+    align-items: center;
     padding: 10px 0 ;
 }
 
-#icon_search{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2em;
-    height: 50px;
-    width: 50px;
+.search form i {
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
+    padding: 16px;
 }
 
-#texte_search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
+.search form input {
+    border: none;
+    border: #F2F2F2 1px solid;
+    padding: 14px;
+    outline: 0;
     font-weight: bold;
-    font-size: 1em;
-    width: 230px;
-    border: none;
-    border: 1px solid #F2F2F2;
+    font-size: 16px;
 }
 
-#button_search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
+.search ::placeholder {
+    color: black;
+}
+
+.search form button {
     background-color: #0065FC;
-    width: 120px;
-    color: white;
+    padding: 16px;
+    border: none;
     border-radius: 0 15px 15px 0;
+    color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 16px;
 }
+
