@@ -7,8 +7,11 @@
 body 
 {
 font-family:"Raleway", sans-serif;
-max-width: 1440px;
-margin: auto;
+}
+
+header, .search, main, .activity, footer {
+    max-width: 1440px;
+    margin: auto;
 }
 
 a 
@@ -184,8 +187,8 @@ main {
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-right: 20px;
-    flex: 2;
     height: auto;
+    flex: 2.5;
 }
 
 .popular {
@@ -257,8 +260,8 @@ main {
 /**** Populaires ****/ 
 
 .popular img {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
 }
 
 .more-popular {
@@ -277,7 +280,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 30px; 
+    padding: 10px 30px 30px 30px; 
 }
 
 .popular .container a {
@@ -285,7 +288,7 @@ main {
     border-radius: 15px;
     box-shadow: 5px 5px 15px gray;
     display: flex;
-    margin: 26px;
+    margin: 16px;
     padding: 4px;
 }
 
@@ -294,5 +297,15 @@ main {
     flex-flow: column wrap;
     padding: 10px;
     justify-content: space-between;
+    font-size: 13px;
 }
 
+.popular img {
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+}
+
+.popular a:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
