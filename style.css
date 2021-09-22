@@ -9,7 +9,7 @@ body
 font-family:"Raleway", sans-serif;
 }
 
-header, .search, main, .activity, footer {
+header, .search, main, .activity, .about{
     max-width: 1440px;
     margin: auto;
 }
@@ -19,6 +19,9 @@ a
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
 .blue {
     color: #0065FC;
 }
@@ -41,7 +44,6 @@ a
 .navbar ul {
     display: flex;
     align-items: center;
-    list-style-type: none;
     padding: 30px;
     margin: 0;
 }
@@ -367,3 +369,33 @@ main {
     transform: scale(1.1);
     transition: 0.7s;
 } 
+
+/**** FOOTER ****/
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.about {
+    display: flex;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 33%;
+}
+
+.about .container h3 {
+    font-size: 20px;
+}
+.about .container ul {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.about li {
+    padding-bottom: 15px;
+    color: black;
+}
