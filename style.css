@@ -276,10 +276,23 @@ main {
 .popular .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 30px; 
 }
 
 .popular .container a {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px gray;
     display: flex;
+    margin: 26px;
+    padding: 4px;
+}
+
+.popular .container .resume {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    justify-content: space-between;
 }
 
