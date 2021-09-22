@@ -360,15 +360,17 @@ main {
     flex-flow: column nowrap;
 }
 
-#activity_1, #card_2, #card_3, #activity_4, #card_5, #card_6 {
+.activity a {
+    display: inline-block;
     box-shadow: 5px 5px 15px lightgray;
     border-radius: 15px;
 }
 
-#activity_1:hover, #card_2:hover, #card_3:hover, #activity_4:hover, #card_5:hover, #card_6:hover {
+.activity a:hover {
     transform: scale(1.1);
     transition: 0.7s;
-} 
+}
+
 
 /**** FOOTER ****/
 
