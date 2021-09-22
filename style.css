@@ -227,7 +227,7 @@ main {
     font-size: 13px;
     min-height: 190px;
     color: black;
-    box-shadow:  5px 5px 15px grey;
+    box-shadow:  5px 5px 15px lightgray;
 }
 
 .accomodation .container img {
@@ -286,7 +286,7 @@ main {
 .popular .container a {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: 5px 5px 15px lightgray;
     display: flex;
     margin: 16px;
     padding: 4px;
@@ -309,3 +309,61 @@ main {
     transform: scale(1.1);
     transition: 0.7s;
 }
+
+/**** ACTIVITY ****/
+
+.activity {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.activity .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.activity h3 {
+    padding: 15px;
+}
+
+.activity h2{
+    padding-bottom: 30px;
+}
+.activity img {
+    height: 400px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.activity #card_2 img{
+    max-height: 180px;
+}
+
+.activity #card_3 img{
+    max-height: 120px;
+}
+
+.activity #card_5 img{
+    max-height: 150px;
+}
+
+.activity #card_6 img{
+    max-height: 150px;
+}
+
+#activity_pair {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+}
+
+#activity_1, #card_2, #card_3, #activity_4, #card_5, #card_6 {
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 15px;
+}
+
+#activity_1:hover, #card_2:hover, #card_3:hover, #activity_4:hover, #card_5:hover, #card_6:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+} 
