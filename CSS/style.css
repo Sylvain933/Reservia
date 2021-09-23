@@ -113,6 +113,8 @@ ul {
     font-size: 16px;
 }
 
+/**** FILTRES ****/
+
 .filter > p {
     font-size: 16px;
     font-weight: bold;
@@ -122,6 +124,10 @@ ul {
     display: flex;
     align-items: center;
     padding-top: 20px;
+}
+
+.filter .container {
+    display: flex;
 }
 
 .filter-button {
