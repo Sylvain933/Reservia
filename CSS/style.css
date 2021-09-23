@@ -99,6 +99,10 @@ ul {
     color: black;
 }
 
+.search button #icon_search {
+    display: none;
+}
+
 .search form button {
     background-color: #0065FC;
     padding: 16px;
