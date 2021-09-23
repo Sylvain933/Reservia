@@ -9,7 +9,7 @@ body {
 }
 
 .navbar img {
-    padding-left: 10px;
+    padding-left: 16px;
     padding-top: 10px;
 }
 .navbar li {
@@ -20,7 +20,7 @@ body {
 .navbar li a {
     display: block;
     width: 100%;
-    padding: 25px 0;
+    padding: 16px ;
     border-bottom: 3px solid #f2f2f2;
 }
 
@@ -44,3 +44,33 @@ body {
 
 
 /**** SECTION RECHERCHE ****/ 
+
+.search {
+    padding: 16px;
+}
+
+.search form {
+    padding-top: 20px;
+}
+
+.search input {
+    min-width: 300px;
+}
+
+.search button span {
+    display: none
+}
+
+.search button #icon_search {
+    display: block;
+}
+
+.search button #icon_search i {
+    padding: 0;
+    background-color: #0065FC;
+}
+
+.search form button {
+    border-radius: 15px;
+    margin: -15px;
+}
