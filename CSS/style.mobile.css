@@ -93,3 +93,61 @@ body {
     margin-top: 10px;
     margin-left: 10px;
 }
+
+/**** MAIN ****/
+
+.main {
+    flex-direction: column;
+    padding: 16px;
+}
+
+.popular {
+    margin: 0;
+    border-radius: 0;
+    padding-bottom: 30px;
+}
+
+.popular .more-popular {
+    padding-left: 35px;
+}
+
+
+.popular .container {
+    padding: 0;
+}
+
+.popular .container a {
+    height: 130px;
+    margin: 5px 30px;
+}
+
+.popular .container img {
+    height: auto;
+}
+
+.accomodation {
+    order: 1;
+    background-color: white;
+    margin: 0;
+}
+
+.accomodation h2 {
+    padding-left: 35px;
+}
+
+.accomodation .container {
+    justify-content: center;
+}
+
+.accomodation .container a {
+    min-width: 100%;
+    margin: 10px;
+}
+
+.accomodation .container img {
+    width: auto;
+}
+
+.more {
+    margin-left: 35px;
+}
