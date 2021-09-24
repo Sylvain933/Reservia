@@ -151,3 +151,30 @@ body {
 .more {
     margin-left: 35px;
 }
+
+/**** ACTIVITES ****/ 
+
+.activity {
+    margin-top: 20px;
+}
+
+.activity h2 {
+    margin-left: 35px;
+}
+
+.activity .container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.activity .container img {
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+}
+
+.activity .container a {
+    width: 100%;
+    margin: 10px 0;
+}
