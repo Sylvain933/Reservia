@@ -54,7 +54,7 @@ body {
 }
 
 .search input {
-    min-width: 300px;
+    width: 100%;
 }
 
 .search button span {
@@ -73,6 +73,7 @@ body {
 .search form button {
     border-radius: 15px;
     margin: -15px;
+    margin-right: 0;
 }
 
 /**** Filtres ****/ 
