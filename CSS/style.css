@@ -414,5 +414,11 @@ footer {
 
 .about li {
     padding-bottom: 15px;
+}
+
+.about a {
     color: black;
+}
+.about a:hover {
+    color: #0065FC;
 }
