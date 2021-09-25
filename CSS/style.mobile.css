@@ -61,11 +61,11 @@ body {
     display: none
 }
 
-.search button #icon_search {
+.search button .icon_search {
     display: block;
 }
 
-.search button #icon_search i {
+.search button .icon_search {
     padding: 0;
     background-color: #0065FC;
 }

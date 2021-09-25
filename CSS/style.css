@@ -102,7 +102,7 @@ html {
     color: black;
 }
 
-.search button #icon_search {
+.search button .icon_search {
     display: none;
 }
 
