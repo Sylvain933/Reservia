@@ -175,6 +175,10 @@ main {
     width: 100%;
 }
 
+.activity #card_2 img {
+    max-height: 150px;
+}
+
 .activity .container a {
     width: 100%;
     margin: 10px 0;
@@ -185,7 +189,6 @@ main {
 .about {
     flex-direction: column;
     margin-left: 35px;
-    width: 100%;
 }
 
 .about .container {
