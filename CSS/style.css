@@ -368,7 +368,7 @@ main {
     max-height: 150px;
 }
 
-#activity_pair {
+.activity_pair {
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
