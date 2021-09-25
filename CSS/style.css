@@ -30,6 +30,9 @@ ul {
     color: lightgray;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /**** NAV BAR ****/
 
