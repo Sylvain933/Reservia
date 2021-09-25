@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+.navbar img {
+    padding-left: 16px;
+    padding-top: 10px;
+}
+/**** RECHERCHE ****/
+.search {
+    padding: 16px;
+}
+.filter {
+    flex-flow: column wrap ;
+    align-items: flex-start;
+}
+
+.filter .container {
+    flex-flow: wrap;
+}
+
+.filter .filter-button {
+    margin-top: 10px;
+}
+/**** MAIN ****/
+main {
+    flex-flow: column;
+    width: 100%;
+}
+
+.accomodation {
+    margin: 0;
+    order: 1;
+    background-color: white;
+}
+
+.popular {
+    margin: 0;
+    border-radius: 0px;
+}
+
+/**** ACTIVITES ****/
+.activity h2 {
+    margin-left: 35px;
+}
+
+.activity .container {
+    flex-flow: column;
+    padding: 0 30px;
+}
+
+.activity .container a {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.activity img {
+    max-height: 150px;
+    min-height: 150px;
+    width: 100%;
+}
+
+/**** FOOTER ****/
+
+.about {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about .container {
+    padding-left: 30px;
+}
