@@ -277,7 +277,10 @@ main {
 .popular img {
     height: 125px;
     width: 125px;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
+
 
 .more-popular {
     display: flex;
@@ -316,10 +319,6 @@ main {
     font-size: 13px;
 }
 
-.popular img {
-    border-radius: 15px 0 0 15px;
-    object-fit: cover;
-}
 
 .popular a:hover {
     transform: scale(1.1);
