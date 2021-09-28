@@ -33,6 +33,15 @@ main {
     background-color: white;
 }
 
+.accomodation .container a {
+    min-width: 30%;
+    margin: 15px 0;
+}
+
+.accomodation img {
+    width: auto;
+}
+
 .popular {
     margin: 0;
     border-radius: 0px;
