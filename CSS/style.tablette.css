@@ -35,11 +35,12 @@ main {
 
 .accomodation .container a {
     min-width: 30%;
+    max-width: 30%;
     margin: 15px 0;
 }
 
 .accomodation img {
-    width: auto;
+    width: 100%;
 }
 
 .popular {

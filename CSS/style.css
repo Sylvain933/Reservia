@@ -276,7 +276,8 @@ main {
 
 .popular img {
     height: 125px;
-    width: 125px;
+    min-width: 125px;
+    max-width: 125px;
     border-radius: 15px 0 0 15px;
     object-fit: cover;
 }
@@ -307,7 +308,7 @@ main {
     border-radius: 15px;
     box-shadow: 5px 5px 15px lightgray;
     display: flex;
-    margin: 16px;
+    margin: 16px 0;
     padding: 4px;
 }
 
