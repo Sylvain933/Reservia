@@ -354,11 +354,11 @@ main {
 }
 
 .activity_pair img {
-    max-height: 150px;
+    height: 150px;
 }
 
 .activity #card_2 img{
-    min-height: 180px;
+    height: 180px;
 }
 
 .activity #card_3 img{
